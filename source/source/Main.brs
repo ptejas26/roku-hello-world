@@ -8,6 +8,7 @@
 sub Main()
     print "in showChannelSGScreen"
     'Indicate this is a Roku SceneGraph application'
+    print "Inserting this line from the EC2-Linux instance"
     screen = CreateObject("roSGScreen")
     m.port = CreateObject("roMessagePort")
     screen.setMessagePort(m.port)
